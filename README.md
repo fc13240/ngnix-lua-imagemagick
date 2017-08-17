@@ -24,7 +24,7 @@ make && make install --prefix=xxxx
 ### /etc/profile
 ```
 export LUAJIT_LIB=/usr/local/lib
-export LUAJIT_INC=/usr/local/include/luajit-2.1
+export LUAJIT_INC=/usr/local/include/luajit-2.1:/usr/local/webserver/nginx
 export LD_LIBRARY_PATH=/usr/local/lib
 ```
 
